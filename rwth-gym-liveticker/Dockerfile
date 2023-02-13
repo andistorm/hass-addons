@@ -5,4 +5,4 @@ FROM $BUILD_FROM
 COPY main.py /
 RUN chmod a+x /main.py
 
-CMD [ "/main.py" ]
+CMD [ "python3 /main.py" ]
